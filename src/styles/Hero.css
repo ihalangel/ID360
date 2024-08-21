@@ -1,0 +1,57 @@
+.hero {
+    position: relative;
+    height: 500px; /* Fija la altura del hero */
+    overflow: hidden; /* Oculta el desbordamiento */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 500px; /* Ajusta la altura de la imagen al contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    position: absolute; /* Permite posicionar el contenido encima de la imagen */
+      object-position: top right; /* Posiciona la imagen para que la parte derecha y el top derecho estén siempre visibles */
+   top: 0px;
+    right: 0px;
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* Overlay para mejorar la legibilidad del texto */
+    padding: 2rem;
+    border-radius: 8px; /* Opcional: añade esquinas redondeadas al contenedor del contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Asegura que el contenido ocupe todo el alto del hero */
+}
+
+
+.hero__button {
+  background-color: #facc15; /* Color de fondo del botón */
+  padding: 1rem;
+  color: #1f2937; /* Color del texto */
+  border: none;
+  border-radius: 0.375rem; /* Ajusta el radio del borde */
+  font-size: 1rem; /* Tamaño de fuente del botón */
+  font-weight: 600; /* Peso de la fuente del botón */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave para hover y foco */
+}
+
+.hero__button:hover {
+  background-color: #fbbf24; /* Color de fondo del botón en hover */
+}
+
+.hero__button:focus {
+  outline: 2px solid #facc15; /* Borde de enfoque para accesibilidad */
+  outline-offset: 2px; /* Espaciado del borde de enfoque */
+}
+
+.hero__button:active {
+  transform: scale(0.98); /* Efecto de presionar el botón */
+}

@@ -1,0 +1,73 @@
+/* Pricing Section */
+.precios {
+  background-color: #f3f4f6;
+  padding: 3rem 1rem; /* Aumentado el padding para mayor espacio */
+}
+
+.precios__title {
+  font-size: 2.5rem; /* Aumentado el tamaño del título para destacarse más */
+  font-weight: bold;
+  color: #1e3a8a; /* Color del título */
+  text-align: center; /* Centramos el título */
+  margin-bottom: 2rem; /* Espaciado debajo del título */
+}
+
+.precios__item {
+  background-color: #ffffff;
+  border-radius: 0.75rem; /* Bordes más redondeados para un diseño moderno */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más prominente */
+  padding: 2rem;
+  position: relative;
+  overflow: hidden; /* Ocultar el desbordamiento para imágenes y contenido */
+}
+
+.precios__image {
+  width: 40%;
+  height: auto; /* Ajustar altura automáticamente */
+  object-fit: cover;
+  position: absolute;
+  bottom: -20px; /* Posicionamos la imagen fuera del contenedor */
+  right: -20px;
+  z-index: 10; /* Asegura que la imagen esté encima del contenido */
+  transform: scaleX(-1); /* Volteamos horizontalmente para un efecto interesante */
+}
+
+.precios__plan-title {
+  font-size: 1.75rem; /* Tamaño de fuente para los títulos de los planes */
+  font-weight: bold;
+  color: #1e3a8a; /* Color de los títulos de los planes */
+  margin-bottom: 1rem;
+}
+
+.precios__list {
+  margin-bottom: 1.5rem; /* Espaciado debajo de la lista */
+  list-style: none; /* Eliminamos el estilo de lista predeterminado */
+  padding-left: 0;
+}
+
+.precios__list-item {
+  position: relative;
+  padding-left: 1.75rem; /* Espacio para el ícono de verificación */
+  margin-bottom: 0.75rem; /* Espaciado entre los elementos de la lista */
+}
+
+.precios__list-item::before {
+  content: '✅'; /* Emoji de verificación */
+  position: absolute;
+  left: 0;
+  color: #4ade80; /* Color verde para el ícono de verificación */
+}
+
+.precios__button {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave para el color y la transformación */
+}
+
+.precios__button:hover {
+  background-color: #2e4a9e;
+  transform: translateY(-2px); /* Ligera elevación al pasar el cursor */
+}

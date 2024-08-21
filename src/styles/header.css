@@ -1,0 +1,96 @@
+/* Header.css */
+.header {
+  background-color: #1E3A8A;
+  color: #FFFFFF;
+  padding: 1rem;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilos para el logo */
+.header__logo {
+  height: 3rem; /* Ajusta según el tamaño deseado */
+}
+
+/* Menú de navegación para pantallas grandes */
+.header__nav-desktop {
+  display: flex; /* Muestra el menú en pantallas grandes */
+}
+
+/* Menú de navegación en pantallas pequeñas (se oculta) */
+.header__nav-desktop {
+  display: flex;
+}
+
+.header__nav-item {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.header__nav-item:hover {
+  color: #CCCCCC;
+}
+
+/* Botón de menú móvil */
+.header__mobile-menu-btn {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: none; /* Oculta el botón en pantallas grandes */
+}
+
+/* Menú móvil */
+.header__mobile-menu {
+  display: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .header__nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__nav-desktop {
+    display: none; /* Oculta el menú para pantallas grandes en pantallas pequeñas */
+  }
+
+  .header__nav-item {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .header__mobile-menu-btn {
+    display: block; /* Muestra el botón en pantallas pequeñas */
+  }
+
+  .header__mobile-menu.active {
+    display: block;
+    position: absolute;
+    top: 4rem; /* Ajusta según el diseño */
+    right: 0;
+    background-color: #1E3A8A;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+  }
+
+  .header__mobile-menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+  }
+
+  .header__mobile-menu a:hover {
+    color: #CCCCCC;
+  }
+}

@@ -1,0 +1,91 @@
+/* Contact Section */
+.contact {
+  padding: 2rem; /* Espaciado vertical del contenedor principal */
+  background-color: #f7f7f7; /* Color de fondo del contenedor */
+  display: flex;
+  justify-content: center;
+}
+
+.contact__title {
+  margin-bottom: 1.5rem; /* Espaciado debajo del título */
+  color: #1E3A8A; /* Color del título */
+  font-size: 2rem; /* Tamaño de fuente del título */
+  font-weight: bold; /* Peso de fuente en negrita para el título */
+  text-align: center;
+}
+
+.contact__form {
+  max-width: 600px; /* Ancho máximo del formulario */
+  width: 100%; /* Ancho completo del contenedor del formulario */
+  background-color: #ffffff; /* Color de fondo del formulario */
+  padding: 2rem; /* Espaciado interno del formulario */
+  border-radius: 0.75rem; /* Bordes redondeados del formulario */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+  margin: 0 auto; /* Centrar el formulario en la página */
+}
+
+.contact__label {
+  display: block; /* Asegura que la etiqueta ocupe toda la línea */
+  margin-bottom: 0.5rem; /* Espaciado debajo de la etiqueta */
+  color: #333333; /* Color de la etiqueta */
+  font-weight: bold; /* Peso de fuente en negrita para las etiquetas */
+}
+
+.contact__input,
+.contact__textarea {
+  width: 100%; /* Ancho completo de los campos de entrada */
+  padding: 1rem; /* Espaciado interno de los campos */
+  border: 1px solid #cccccc; /* Borde de los campos */
+  border-radius: 0.5rem; /* Bordes redondeados de los campos */
+  margin-bottom: 1rem; /* Espaciado debajo de los campos */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  font-size: 1rem; /* Tamaño de fuente de los campos */
+  transition: border-color 0.3s ease; /* Transición suave para el borde */
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+  border-color: #1E3A8A; /* Color del borde al enfocar */
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+  box-shadow: 0 0 0 2px rgba(30, 58, 138, 0.2); /* Sombra de enfoque */
+}
+
+.contact__textarea {
+  resize: vertical; /* Permite redimensionar verticalmente el área de texto */
+}
+
+.contact__button {
+  background-color: #1E3A8A; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  padding: 1rem 2rem; /* Espaciado interno del botón */
+  border-radius: 0.5rem; /* Bordes redondeados del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+  border: none; /* Elimina el borde predeterminado del botón */
+  font-size: 1rem; /* Tamaño de fuente del botón */
+}
+
+.contact__button:hover {
+  background-color: #2E4A9E; /* Color de fondo cuando el botón está en estado hover */
+}
+
+/* Estilos para mensajes de éxito y error */
+.success-message,
+.error-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.success-message {
+  background-color: #d4edda; /* Fondo verde claro */
+  color: #155724; /* Texto verde oscuro */
+}
+
+.error-message {
+  background-color: #f8d7da; /* Fondo rojo claro */
+  color: #721c24; /* Texto rojo oscuro */
+}
+

@@ -1,0 +1,79 @@
+/* Portfolio.css */
+
+/* Sección del portafolio */
+.portfolio-section {
+  background-color: #f9f9f9; /* Color de fondo de la sección */
+  padding: 3rem 1rem; /* Espaciado vertical y horizontal */
+}
+
+/* Título de la sección */
+.portfolio-section h2 {
+  font-size: 2.5rem; /* Tamaño de fuente grande para el título */
+  font-weight: bold; /* Peso de fuente en negrita */
+  color: #1E3A8A; /* Color del título */
+  text-align: center; /* Centrar el título */
+  margin-bottom: 2rem; /* Espaciado debajo del título */
+}
+
+/* Estilo de la cuadrícula */
+.grid {
+  display: grid;
+  gap: 2rem; /* Espaciado entre elementos */
+}
+
+/* Ajustes según el tamaño de pantalla */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas medianas */
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en pantallas grandes */
+  }
+}
+
+/* Estilo de los elementos del portafolio */
+.portfolio-item {
+  text-decoration: none; /* Eliminar el subrayado del enlace */
+  color: inherit; /* Heredar color del texto */
+  display: block; /* Mostrar como bloque */
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 0.75rem; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+  overflow: hidden; /* Ocultar contenido desbordante */
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px); /* Efecto de elevación en hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
+
+.portfolio-item img {
+  width: 100%; /* Ancho completo */
+  height: 14rem; /* Altura fija */
+  object-fit: cover; /* Ajuste de la imagen */
+  margin-bottom: 1rem; /* Espaciado debajo de la imagen */
+}
+
+.portfolio-item h3 {
+  font-size: 1.5rem; /* Tamaño de fuente del título */
+  font-weight: bold; /* Peso de fuente en negrita */
+  color: #1E3A8A; /* Color del título del proyecto */
+  margin-bottom: 0.5rem; /* Espaciado debajo del título */
+}
+
+.portfolio-item p {
+  color: #4A4A4A; /* Color del texto de la descripción */
+  margin-bottom: 1rem; /* Espaciado debajo de la descripción */
+}
+
+.portfolio-item blockquote {
+  color: #6B7280; /* Color del texto del bloque de cita */
+  font-style: italic; /* Estilo en cursiva para la cita */
+  border-left: 4px solid #1E3A8A; /* Línea vertical para destacar la cita */
+  padding-left: 1rem; /* Espaciado a la izquierda de la cita */
+  margin-top: 1rem; /* Espaciado superior */
+}
