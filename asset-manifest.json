@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ID360/static/css/main.9a10b0c0.css",
-    "main.js": "/ID360/static/js/main.cc2cb1d6.js",
+    "main.js": "/ID360/static/js/main.e9c1c295.js",
     "static/media/bussines.png": "/ID360/static/media/bussines.1a05dc6c2514e30a1941.png",
     "static/media/landing.png": "/ID360/static/media/landing.dbe3d177f6028245b528.png",
     "static/media/ecommerce.png": "/ID360/static/media/ecommerce.1bac015c65fcb1b08fa8.png",
@@ -9,10 +9,10 @@
     "static/media/logoIdentidad360_25px.png": "/ID360/static/media/logoIdentidad360_25px.8f3be46ac02285829443.png",
     "index.html": "/ID360/index.html",
     "main.9a10b0c0.css.map": "/ID360/static/css/main.9a10b0c0.css.map",
-    "main.cc2cb1d6.js.map": "/ID360/static/js/main.cc2cb1d6.js.map"
+    "main.e9c1c295.js.map": "/ID360/static/js/main.e9c1c295.js.map"
   },
   "entrypoints": [
     "static/css/main.9a10b0c0.css",
-    "static/js/main.cc2cb1d6.js"
+    "static/js/main.e9c1c295.js"
   ]
 }
