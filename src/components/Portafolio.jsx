@@ -8,7 +8,7 @@ import EcommerceImg from '../assets/images/planes/ecommerce.png'; // Importa Lan
 const projects = [
   {
     id: 1,
-    href: "portafolio/landing.html",
+    href: "/ID360/landing.html",
     imgSrc: LadingImg,
     altText: "Proyecto de Landing Page",
     title: "Landing Page",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     id: 2,
-    href: "portafolio/bussines.html",
+    href: "/ID360/bussines.html",
     imgSrc: BussinesImg,
     altText: "Proyecto de Barbería",
     title: "Sitio Web para Contadores",
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     id: 3,
-    href: "portafolio/ecommerce.html",
+    href: "/ID360/ecommerce.html",
     imgSrc: EcommerceImg,
     altText: "Proyecto de E-commerce",
     title: "Tienda en Línea de Mascotas",
