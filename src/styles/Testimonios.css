@@ -2,6 +2,7 @@
 .testimonials {
   padding: 2rem;
   background-color: #f7f7f7; /* Color de fondo */
+  overflow-x: hidden;
 }
 
 .testimonials__title {

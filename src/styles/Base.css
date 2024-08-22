@@ -1,8 +1,10 @@
 /* Base Container */
 .container {
-  max-width: 1200px;
+  width: 100%; /* Asegura que el contenedor ocupe el ancho completo */
+  max-width: 100%; /* Opcional si quieres mantener el contenedor fluido */
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box; /* Incluye el padding en el cálculo del ancho total */
 }
 
 /* Media Queries */

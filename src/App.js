@@ -9,6 +9,8 @@ import Testimonios from './components/Testimonios';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import 'aos/dist/aos.css';
+import './App.css'
+import './styles/Base.css'
 import AOS from 'aos';
 
 function App() {

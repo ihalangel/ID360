@@ -2,7 +2,10 @@
 .header {
   background-color: #1E3A8A;
   color: #FFFFFF;
+  width: 100%; /* Asegura que el header ocupe el 100% del ancho disponible */
+   box-sizing: border-box; /* Incluye el padding en el cálculo del ancho total */
   padding: 1rem;
+
 }
 
 .header__nav {
