@@ -10,3 +10,7 @@ export const initializeAnalytics = () => {
 export const logPageView = () => {
   ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
 };
+
+
+
+
