@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -12,9 +12,16 @@ import './App.css'
 import './styles/Base.css'
 import AOS from 'aos';
 
+
+
 function App() {
   React.useEffect(() => {
     AOS.init();
+  }, []);
+
+  useEffect(() => {
+    // Establecer una cookie cuando el componente se monta
+    document.cookie = "myCookie=myValue; SameSite=None; Secure; path=/";
   }, []);
 
   return (
