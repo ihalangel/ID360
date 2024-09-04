@@ -18,9 +18,18 @@ const Modal = ({ isOpen, onClose }) => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+ const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true); // Marca que se está enviando el formulario
+
+    // Registrar el evento con Google Analytics
+    if (window.gtag) {
+        window.gtag('event', 'submit', {
+            'event_category': 'Formulario',
+            'event_label': 'Solicitud de Cotización',
+            'value': 1
+        });
+    }
 
     // Enviar correo al destinatario (tu dirección de correo)
     emailjs.send('service_6pxd8j7', 'template_whz4otd', formData, 'QmNoMSufAjUqdXE-e')
@@ -48,7 +57,8 @@ const Modal = ({ isOpen, onClose }) => {
         setSuccessMessage('');
         setIsSubmitting(false); // Marca que el envío ha terminado
       });
-  };
+};
+
 
   if (!isOpen) return null;
 

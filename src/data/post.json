@@ -1,0 +1,453 @@
+[
+  {
+    "id": 1,
+    "title": "Impulsa tu negocio con una Landing Page",
+    "description": "Atrae a tus clientes con una página de aterrizaje impactante y efectiva.",
+    "image": "https://example.com/images/landing-page.jpg",
+    "url": "https://example.com/landing-page",
+    "hashtags": ["#LandingPage", "#MarketingDigital", "#Negocios"],
+  "content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 2,
+    "title": "Desarrolla tu sitio web corporativo",
+    "description": "Crea una presencia online profesional con un sitio web corporativo adaptado a tus necesidades.",
+    "image": "https://example.com/images/corporate-site.jpg",
+    "url": "https://example.com/corporate-site",
+    "hashtags": ["#SitioWebCorporativo", "#TransformaciónDigital", "#Empresas"],
+  "content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 3,
+    "title": "Lanza tu tienda online de manera efectiva",
+    "description": "Descubre cómo una tienda en línea puede transformar tu negocio con nuestras soluciones personalizadas.",
+    "image": "https://example.com/images/ecommerce.jpg",
+    "url": "https://example.com/ecommerce",
+    "hashtags": ["#Ecommerce", "#TiendaOnline", "#VentasOnline"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 4,
+    "title": "Diseña un sitio web que cautive",
+    "description": "Transforma la presencia de tu marca con un diseño web atractivo y funcional.",
+    "image": "https://example.com/images/web-design.jpg",
+    "url": "https://example.com/web-design",
+    "hashtags": ["#DiseñoWeb", "#Creatividad", "#Innovación"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 5,
+    "title": "Optimiza tu sitio para SEO",
+    "description": "Asegúrate de que tu sitio web esté optimizado para los motores de búsqueda y atraiga tráfico cualificado.",
+    "image": "https://example.com/images/seo.jpg",
+    "url": "https://example.com/seo",
+    "hashtags": ["#SEO", "#Marketing", "#Posicionamiento"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 6,
+    "title": "Incrementa tu visibilidad con marketing digital",
+    "description": "Aprovecha las estrategias de marketing digital para llegar a más clientes en Latinoamérica.",
+    "image": "https://example.com/images/digital-marketing.jpg",
+    "url": "https://example.com/digital-marketing",
+    "hashtags": ["#MarketingDigital", "#PublicidadOnline", "#Crecimiento"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 7,
+    "title": "¿Por qué es importante un sitio web responsivo?",
+    "description": "Un sitio web que se adapta a todos los dispositivos mejora la experiencia del usuario y aumenta las conversiones.",
+    "image": "https://example.com/images/responsive.jpg",
+    "url": "https://example.com/responsive",
+    "hashtags": ["#ResponsiveDesign", "#UX", "#WebDevelopment"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 8,
+    "title": "Transforma tu idea en un proyecto exitoso",
+    "description": "Desde la conceptualización hasta el lanzamiento, te ayudamos a llevar tu proyecto web a la realidad.",
+    "image": "https://example.com/images/project-success.jpg",
+    "url": "https://example.com/project-success",
+    "hashtags": ["#ProyectoWeb", "#ÉxitoDigital", "#Desarrollo"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 9,
+    "title": "Mejora tu presencia en redes sociales",
+    "description": "Aumenta tu alcance y conecta con tu audiencia a través de estrategias efectivas en redes sociales.",
+    "image": "https://example.com/images/social-media.jpg",
+    "url": "https://example.com/social-media",
+    "hashtags": ["#RedesSociales", "#MarketingEnRedes", "#Conexión"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 10,
+    "title": "¿Qué es un CMS y por qué lo necesitas?",
+    "description": "Descubre las ventajas de utilizar un sistema de gestión de contenido para tu sitio web.",
+    "image": "https://example.com/images/cms.jpg",
+    "url": "https://example.com/cms",
+    "hashtags": ["#CMS", "#GestiónDeContenido", "#Web"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 11,
+    "title": "Diseño web accesible para todos",
+    "description": "Asegúrate de que tu sitio web sea accesible para todos los usuarios, independientemente de sus habilidades.",
+    "image": "https://example.com/images/accessibility.jpg",
+    "url": "https://example.com/accessibility",
+    "hashtags": ["#Accesibilidad", "#Inclusión", "#DiseñoWeb"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 12,
+    "title": "Aumenta tus conversiones con un diseño efectivo",
+    "description": "Descubre cómo un diseño web bien hecho puede mejorar tus tasas de conversión y aumentar tus ventas.",
+    "image": "https://example.com/images/conversion.jpg",
+    "url": "https://example.com/conversion",
+    "hashtags": ["#Conversiones", "#DiseñoEfectivo", "#Ventas"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 13,
+    "title": "Las mejores prácticas para el desarrollo web",
+    "description": "Conoce las mejores prácticas y tendencias en desarrollo web para estar al día en el mercado.",
+    "image": "https://example.com/images/web-development.jpg",
+    "url": "https://example.com/web-development",
+    "hashtags": ["#DesarrolloWeb", "#MejoresPrácticas", "#Tendencias"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 14,
+    "title": "Cómo crear una estrategia de contenido exitosa",
+    "description": "Aprende a desarrollar una estrategia de contenido que atraiga y retenga a tu audiencia.",
+    "image": "https://example.com/images/content-strategy.jpg",
+    "url": "https://example.com/content-strategy",
+    "hashtags": ["#EstrategiaDeContenido", "#MarketingDeContenido", "#Audiencia"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 15,
+    "title": "La importancia del diseño UX en tu sitio web",
+    "description": "Un buen diseño de experiencia del usuario puede marcar la diferencia en la satisfacción del cliente.",
+    "image": "https://example.com/images/ux-design.jpg",
+    "url": "https://example.com/ux-design",
+    "hashtags": ["#UXDesign", "#ExperienciaUsuario", "#Diseño"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 16,
+    "title": "Mejora el rendimiento de tu sitio web",
+    "description": "Optimiza tu sitio para que cargue más rápido y ofrezca una mejor experiencia al usuario.",
+    "image": "https://example.com/images/site-performance.jpg",
+    "url": "https://example.com/site-performance",
+    "hashtags": ["#RendimientoWeb", "#Optimización", "#Velocidad"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 17,
+    "title": "La importancia de un diseño móvil primero",
+    "description": "Con el aumento del uso de dispositivos móviles, el diseño móvil primero es crucial para el éxito de tu sitio web.",
+    "image": "https://example.com/images/mobile-first.jpg",
+    "url": "https://example.com/mobile-first",
+    "hashtags": ["#MobileFirst", "#DiseñoMóvil", "#Responsive"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 18,
+    "title": "Aprovecha el marketing por correo electrónico",
+    "description": "Implementa campañas de correo electrónico efectivas para conectar con tus clientes y aumentar tus ventas.",
+    "image": "https://example.com/images/email-marketing.jpg",
+    "url": "https://example.com/email-marketing",
+    "hashtags": ["#EmailMarketing", "#Campañas", "#Ventas"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 19,
+    "title": "Tendencias en diseño web para 2024",
+    "description": "Mantente al día con las últimas tendencias y tecnologías en diseño web.",
+    "image": "https://example.com/images/web-design-trends.jpg",
+    "url": "https://example.com/web-design-trends",
+    "hashtags": ["#TendenciasWeb", "#Diseño2024", "#Innovación"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 20,
+    "title": "Cómo optimizar imágenes para la web",
+    "description": "Aprende a optimizar las imágenes de tu sitio web para mejorar el rendimiento y la velocidad de carga.",
+    "image": "https://example.com/images/image-optimization.jpg",
+    "url": "https://example.com/image-optimization",
+    "hashtags": ["#OptimizaciónDeImágenes", "#VelocidadDeCarga", "#Rendimiento"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 21,
+    "title": "Implementa un blog en tu sitio web",
+    "description": "Añade un blog a tu sitio web para compartir noticias, ideas y atraer tráfico.",
+    "image": "https://example.com/images/blog.jpg",
+    "url": "https://example.com/blog",
+    "hashtags": ["#Blog", "#Contenido", "#SEO"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 22,
+    "title": "Crea una experiencia de usuario memorable",
+    "description": "Diseña tu sitio web para ofrecer una experiencia de usuario única y atractiva.",
+    "image": "https://example.com/images/user-experience.jpg",
+    "url": "https://example.com/user-experience",
+    "hashtags": ["#UX", "#ExperienciaDeUsuario", "#Diseño"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 23,
+    "title": "La importancia del contenido visual en la web",
+    "description": "Utiliza contenido visual impactante para captar la atención de tus visitantes.",
+    "image": "https://example.com/images/visual-content.jpg",
+    "url": "https://example.com/visual-content",
+    "hashtags": ["#ContenidoVisual", "#DiseñoWeb", "#Marketing"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 24,
+    "title": "Guía para crear un portafolio en línea",
+    "description": "Crea un portafolio en línea para mostrar tus trabajos y atraer clientes potenciales.",
+    "image": "https://example.com/images/portfolio.jpg",
+    "url": "https://example.com/portfolio",
+    "hashtags": ["#Portafolio", "#Trabajos", "#Clientes"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 25,
+    "title": "Maximiza tu presencia en Google My Business",
+    "description": "Optimiza tu perfil en Google My Business para mejorar tu visibilidad local.",
+    "image": "https://example.com/images/google-my-business.jpg",
+    "url": "https://example.com/google-my-business",
+    "hashtags": ["#GoogleMyBusiness", "#SEO", "#VisibilidadLocal"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 26,
+    "title": "Cómo utilizar Google Analytics para mejorar tu sitio",
+    "description": "Analiza el tráfico de tu sitio web con Google Analytics para hacer mejoras basadas en datos.",
+    "image": "https://example.com/images/google-analytics.jpg",
+    "url": "https://example.com/google-analytics",
+    "hashtags": ["#GoogleAnalytics", "#AnálisisDeDatos", "#MejoraContinua"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 27,
+    "title": "Técnicas para aumentar la retención de usuarios",
+    "description": "Implementa estrategias para mantener a tus usuarios comprometidos y volver a tu sitio.",
+    "image": "https://example.com/images/user-retention.jpg",
+    "url": "https://example.com/user-retention",
+    "hashtags": ["#RetenciónDeUsuarios", "#Compromiso", "#Fidelización"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 28,
+    "title": "La importancia de los testimonios en tu sitio web",
+    "description": "Agrega testimonios de clientes para aumentar la credibilidad y confianza en tu sitio.",
+    "image": "https://example.com/images/testimonials.jpg",
+    "url": "https://example.com/testimonials",
+    "hashtags": ["#Testimonios", "#Confianza", "#Credibilidad"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 29,
+    "title": "Optimización para móviles: Qué debes saber",
+    "description": "Asegúrate de que tu sitio web esté optimizado para dispositivos móviles.",
+    "image": "https://example.com/images/mobile-optimization.jpg",
+    "url": "https://example.com/mobile-optimization",
+    "hashtags": ["#OptimizaciónMóvil", "#Responsive", "#Web"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 30,
+    "title": "Beneficios de integrar chat en vivo en tu sitio",
+    "description": "Mejora la comunicación con tus visitantes y aumenta las conversiones con un chat en vivo.",
+    "image": "https://example.com/images/live-chat.jpg",
+    "url": "https://example.com/live-chat",
+    "hashtags": ["#ChatEnVivo", "#Comunicación", "#Conversiones"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 31,
+    "title": "Cómo crear un diseño de página de inicio efectivo",
+    "description": "Diseña una página de inicio que capte la atención de tus visitantes desde el primer momento.",
+    "image": "https://example.com/images/homepage-design.jpg",
+    "url": "https://example.com/homepage-design",
+    "hashtags": ["#DiseñoDePágina", "#PáginaDeInicio", "#UX"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 32,
+    "title": "Importancia del diseño gráfico en el marketing digital",
+    "description": "Un buen diseño gráfico es clave para una campaña de marketing digital exitosa.",
+    "image": "https://example.com/images/graphic-design.jpg",
+    "url": "https://example.com/graphic-design",
+    "hashtags": ["#DiseñoGráfico", "#MarketingDigital", "#Publicidad"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 33,
+    "title": "Cómo hacer un análisis de competencia en línea",
+    "description": "Evalúa a tus competidores en línea para mejorar tu estrategia y destacar en el mercado.",
+    "image": "https://example.com/images/competitor-analysis.jpg",
+    "url": "https://example.com/competitor-analysis",
+    "hashtags": ["#AnálisisDeCompetencia", "#Estrategia", "#Negocios"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 34,
+    "title": "Guía para crear contenido multimedia",
+    "description": "Desarrolla contenido multimedia atractivo para atraer y retener a tu audiencia.",
+    "image": "https://example.com/images/multimedia-content.jpg",
+    "url": "https://example.com/multimedia-content",
+    "hashtags": ["#ContenidoMultimedia", "#Marketing", "#Audiencia"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 35,
+    "title": "Cómo utilizar el video marketing de manera efectiva",
+    "description": "Aprovecha el video marketing para atraer a tu audiencia y comunicar tu mensaje.",
+    "image": "https://example.com/images/video-marketing.jpg",
+    "url": "https://example.com/video-marketing",
+    "hashtags": ["#VideoMarketing", "#Contenido", "#Estrategia"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 36,
+    "title": "Estrategias para mejorar la tasa de conversión",
+    "description": "Implementa técnicas efectivas para aumentar la tasa de conversión de tu sitio web.",
+    "image": "https://example.com/images/conversion-rate.jpg",
+    "url": "https://example.com/conversion-rate",
+    "hashtags": ["#TasaDeConversión", "#Estrategias", "#Ventas"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 37,
+    "title": "Cómo crear un landing page efectiva",
+    "description": "Diseña landing pages que conviertan y ayuden a alcanzar tus objetivos de marketing.",
+    "image": "https://example.com/images/landing-page-design.jpg",
+    "url": "https://example.com/landing-page-design",
+    "hashtags": ["#LandingPage", "#Diseño", "#Conversión"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 38,
+    "title": "Implementa un sistema de reservas en tu sitio web",
+    "description": "Facilita a tus clientes hacer reservas en línea con un sistema integrado en tu sitio web.",
+    "image": "https://example.com/images/booking-system.jpg",
+    "url": "https://example.com/booking-system",
+    "hashtags": ["#SistemaDeReservas", "#Web", "#Clientes"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 39,
+    "title": "Cómo utilizar el remarketing para aumentar ventas",
+    "description": "Re-engage con usuarios que ya han visitado tu sitio para mejorar tus conversiones.",
+    "image": "https://example.com/images/remarketing.jpg",
+    "url": "https://example.com/remarketing",
+    "hashtags": ["#Remarketing", "#Ventas", "#Publicidad"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 40,
+    "title": "Guía para diseñar un formulario de contacto efectivo",
+    "description": "Crea formularios de contacto que faciliten la comunicación con tus clientes y recojan información valiosa.",
+    "image": "https://example.com/images/contact-form.jpg",
+    "url": "https://example.com/contact-form",
+    "hashtags": ["#FormularioDeContacto", "#Diseño", "#Comunicación"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 41,
+    "title": "La importancia de un buen mantenimiento web",
+    "description": "Mantén tu sitio web actualizado y funcional con un mantenimiento regular.",
+    "image": "https://example.com/images/web-maintenance.jpg",
+    "url": "https://example.com/web-maintenance",
+    "hashtags": ["#MantenimientoWeb", "#Actualización", "#Rendimiento"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 42,
+    "title": "Cómo implementar una estrategia de marketing en redes sociales",
+    "description": "Desarrolla y ejecuta una estrategia efectiva para tus redes sociales.",
+    "image": "https://example.com/images/social-media-strategy.jpg",
+    "url": "https://example.com/social-media-strategy",
+    "hashtags": ["#MarketingEnRedes", "#Estrategia", "#RedesSociales"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 43,
+    "title": "Beneficios de tener un sitio web multilingüe",
+    "description": "Aumenta tu alcance global con un sitio web que soporte múltiples idiomas.",
+    "image": "https://example.com/images/multilingual-site.jpg",
+    "url": "https://example.com/multilingual-site",
+    "hashtags": ["#Multilingüe", "#AlcanceGlobal", "#Web"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 44,
+    "title": "Técnicas para mejorar la velocidad de carga de tu sitio",
+    "description": "Optimiza la velocidad de carga de tu sitio web para mejorar la experiencia del usuario.",
+    "image": "https://example.com/images/site-speed.jpg",
+    "url": "https://example.com/site-speed",
+    "hashtags": ["#VelocidadDeCarga", "#Optimización", "#Rendimiento"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 45,
+    "title": "Cómo integrar un sistema de pago en tu e-commerce",
+    "description": "Implementa una pasarela de pago segura y eficiente para tu tienda en línea.",
+    "image": "https://example.com/images/payment-system.jpg",
+    "url": "https://example.com/payment-system",
+    "hashtags": ["#SistemaDePago", "#Ecommerce", "#Seguridad"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 46,
+    "title": "Beneficios de usar una CDN para tu sitio web",
+    "description": "Mejora la velocidad y disponibilidad de tu sitio web con una red de distribución de contenido.",
+    "image": "https://example.com/images/cdn.jpg",
+    "url": "https://example.com/cdn",
+    "hashtags": ["#CDN", "#VelocidadDeCarga", "#Rendimiento"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 47,
+    "title": "Cómo asegurar tu sitio web contra ataques",
+    "description": "Implementa medidas de seguridad para proteger tu sitio web contra amenazas y ataques.",
+    "image": "https://example.com/images/web-security.jpg",
+    "url": "https://example.com/web-security",
+    "hashtags": ["#SeguridadWeb", "#Protección", "#Ciberseguridad"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 48,
+    "title": "Guía para crear una estrategia de contenido visual",
+    "description": "Desarrolla una estrategia efectiva para crear y utilizar contenido visual en tu marketing.",
+    "image": "https://example.com/images/visual-content-strategy.jpg",
+    "url": "https://example.com/visual-content-strategy",
+    "hashtags": ["#ContenidoVisual", "#Estrategia", "#Marketing"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 49,
+    "title": "Cómo utilizar herramientas de análisis para mejorar tu web",
+    "description": "Emplea herramientas de análisis para identificar áreas de mejora en tu sitio web.",
+    "image": "https://example.com/images/analytics-tools.jpg",
+    "url": "https://example.com/analytics-tools",
+    "hashtags": ["#HerramientasDeAnálisis", "#Optimización", "#Web"]
+   ,"content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>" },
+ 
+  {
+    "id": 50,
+    "title": "La importancia del diseño gráfico en tu sitio web",
+    "description": "Un diseño gráfico atractivo es clave para captar y retener la atención de tus visitantes.",
+    "image": "https://example.com/images/website-graphics.jpg",
+    "url": "https://example.com/website-graphics",
+    "hashtags": ["#DiseñoGráfico", "#Web", "#Estética"],
+    "content": "<p>Este es un contenido de ejemplo con <strong>HTML</strong>.</p>"
+ 
+  }
+]

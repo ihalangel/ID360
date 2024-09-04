@@ -36,33 +36,45 @@ const Contacto = () => {
   // };
 
 
+const handleSubmit = (e) => {
+  e.preventDefault();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // Imprimir formData para ver su estructura
+  console.log('Form Data:', formData);
 
-    // Enviar correo al destinatario (tu dirección de correo)
-    emailjs.send('service_6pxd8j7', 'template_whz4otd', formData, 'QmNoMSufAjUqdXE-e')
-      .then((result) => {
-        // Enviar confirmación al cliente
-        emailjs.send('service_6pxd8j7', 'template_6v2nsne', formData, 'QmNoMSufAjUqdXE-e')
-          .then(() => {
-            setSuccessMessage('Envío exitoso. Revisa tu correo electrónico para más información.');
-            setErrorMessage('');
-            setFormData({
-              name: '',
-              email: '',
-              message: ''
-            });
-          })
-          .catch((error) => {
-            setErrorMessage('Error al enviar la confirmación al cliente.');
-            setSuccessMessage('');
+  // Enviar correo al destinatario (tu dirección de correo)
+  emailjs.send('service_6pxd8j7', 'template_whz4otd', formData, 'QmNoMSufAjUqdXE-e')
+    .then((result) => {
+      // Imprimir el resultado de la primera solicitud
+      console.log('Resultado de emailjs.send al destinatario:', result);
+
+      // Enviar confirmación al cliente
+      emailjs.send('service_6pxd8j7', 'template_6v2nsne', formData, 'QmNoMSufAjUqdXE-e')
+        .then(() => {
+          console.log('Confirmación enviada al cliente con éxito.');
+          setSuccessMessage('Envío exitoso. Revisa tu correo electrónico para más información.');
+          setErrorMessage('');
+          setFormData({
+            name: '',
+            email: '',
+            message: ''
           });
-      }, (error) => {
-        setErrorMessage('Error al enviar el correo.');
-        setSuccessMessage('');
-      });
-  };
+        })
+        .catch((error) => {
+          // Imprimir el error de la segunda solicitud
+          console.error('Error al enviar la confirmación al cliente:', error);
+          setErrorMessage('Error al enviar la confirmación al cliente.');
+          setSuccessMessage('');
+        });
+    })
+    .catch((error) => {
+      // Imprimir el error de la primera solicitud
+      console.error('Error al enviar el correo:', error);
+      setErrorMessage('Error al enviar el correo.');
+      setSuccessMessage('');
+    });
+};
+
 
   return (
     <section id="contacto" className="contact bg-gray-100 py-12">

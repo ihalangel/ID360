@@ -11,11 +11,11 @@ const Precios = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="precios__item" data-aos="fade-right">
             <div className="precios__content">
-              <img
+            {/*  <img
                 src="assets/images/planes/joven-apoyado-nbgr.webp"
                 alt="Landing Page"
                 className="precios__image"
-              />
+              />*/}
               <h4 className="precios__plan-title">Landing Page - $300</h4>
               <ul className="precios__list">
                 <li className="precios__list-item">Certificado de Seguridad SSL</li>
@@ -31,11 +31,11 @@ const Precios = () => {
           </div>
           <div className="precios__item" data-aos="fade-up" data-aos-delay="100">
             <div className="precios__content">
-              <img
+           {/*   <img
                 src="assets/images/planes/maquetaweb.jpg"
                 alt="Corporativa"
                 className="precios__image"
-              />
+              />*/}
               <h4 className="precios__plan-title">Corporativa - $800</h4>
               <ul className="precios__list">
                 <li className="precios__list-item">5 secciones o páginas</li>
@@ -54,11 +54,11 @@ const Precios = () => {
           </div>
           <div className="precios__item" data-aos="fade-left" data-aos-delay="200">
             <div className="precios__content">
-              <img
+          {/*    <img
                 src="assets/images/planes/presentador.gif"
                 alt="E-commerce"
                 className="precios__image"
-              />
+              />*/}
               <h4 className="precios__plan-title">E-commerce - $1250</h4>
               <ul className="precios__list">
                 <li className="precios__list-item">7 secciones</li>

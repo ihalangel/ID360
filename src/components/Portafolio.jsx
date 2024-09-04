@@ -1,4 +1,3 @@
-// Portfolio.js
 import React from 'react';
 import './../styles/Portafolio.css'; // Asegúrate de tener el CSS en el mismo directorio
 import LadingImg from '../assets/images/planes/landing.png'; // Importa Landing
@@ -8,7 +7,7 @@ import EcommerceImg from '../assets/images/planes/ecommerce.png'; // Importa Lan
 const projects = [
   {
     id: 1,
-    href: "/ID360/landing.html",
+    href: "/landing.html",
     imgSrc: LadingImg,
     altText: "Proyecto de Landing Page",
     title: "Landing Page",
@@ -17,7 +16,7 @@ const projects = [
   },
   {
     id: 2,
-    href: "/ID360/bussines.html",
+    href: "/bussines.html",
     imgSrc: BussinesImg,
     altText: "Proyecto de Barbería",
     title: "Sitio Web para Contadores",
@@ -26,7 +25,7 @@ const projects = [
   },
   {
     id: 3,
-    href: "/ID360/ecommerce.html",
+    href: "/ecommerce.html",
     imgSrc: EcommerceImg,
     altText: "Proyecto de E-commerce",
     title: "Tienda en Línea de Mascotas",
@@ -36,13 +35,28 @@ const projects = [
 ];
 
 const Portfolio = () => {
+  const handleClick = (title) => {
+    if (window.gtag) {
+      window.gtag('event', 'click', {
+        'event_category': 'Portfolio',
+        'event_label': title,
+        'value': 1
+      });
+    }
+  };
+
   return (
     <section className="portfolio-section py-12">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Nuestros Ejemplos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map(project => (
-            <a href={project.href} className="block portfolio-item" key={project.id}>
+            <a
+              href={project.href}
+              className="block portfolio-item"
+              key={project.id}
+              onClick={() => handleClick(project.title)} // Llamada a la función de clic
+            >
               <img 
                 src={project.imgSrc} 
                 alt={project.altText} 

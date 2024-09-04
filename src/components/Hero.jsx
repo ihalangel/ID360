@@ -6,8 +6,23 @@ import Modal from './Modal'; // Importa el componente Modal
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openModal = () => setIsModalOpen(true);
+ 
   const closeModal = () => setIsModalOpen(false);
+
+
+const openModal = () => {
+  setIsModalOpen(true);
+  // Registrar el evento con un label en español
+    
+  const customLabel = 'H Solicitar Cotización';
+  if (window.gtag) {
+    window.gtag('event', 'click', {
+      'event_category': 'Botón',
+      'event_label': customLabel,
+      'value': 1
+    });
+  }else{console.log("No windows.GTAG")}
+};
 
   return (
     <section className="hero">
@@ -30,4 +45,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
